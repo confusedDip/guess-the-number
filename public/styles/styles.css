@@ -1,0 +1,29 @@
+body{
+        background-color: #EF2F88;
+        font-family: 'Karla',
+        sans-serif;
+        color:white;
+}
+
+h1, h2, h3, h4, h5, h6{
+        font-family: 'Leckerli One',
+        cursive;
+}
+.container{
+        /* background-color: white; */
+        height: 100vh;
+}
+
+.btn{
+        background-color: #EF2F88;
+        color: white;
+}
+
+.btn:hover{
+        background-color: white;
+        color: #EF2F88;
+}
+
+.hide{
+        display: none;
+}
