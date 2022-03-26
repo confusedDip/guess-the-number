@@ -9,6 +9,8 @@ function check(number){
         const resultFailure = document.getElementById("result-failure");
         const restartBtn = document.getElementById("restart-btn");
 
+        guessDiv.value = "Guess the number!";
+
         if(guess === ""){
                 history.innerHTML += "<br>No Input Provided!";
                 return;
